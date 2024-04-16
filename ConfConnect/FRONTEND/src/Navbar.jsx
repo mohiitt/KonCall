@@ -5,7 +5,7 @@ function Navbar() {
     return (
         
          <nav class="navbar" id="navbar">
-            <div class="navbar-heading">ConferConnect</div>
+            <div class="navbar-heading">KonCall</div>
             <div class="links-container">
            
                 <a href="#navbar" class="link">Home</a>
