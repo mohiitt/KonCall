@@ -15,7 +15,7 @@ export default function Home() {
             <div className="vid"><img src={vid} alt="loading..." /></div>
             <div className="btn">
                 <button>Get Started</button>
-                <input type='text' placeholder='Insert Link'></input>
+                <input type='text' placeholder='Code'></input>
             </div>
             </div>
             
