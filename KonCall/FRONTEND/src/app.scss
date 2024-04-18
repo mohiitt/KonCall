@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lilita+One&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
 
 .logo{
         height: 6em;
@@ -7,23 +9,23 @@
     }
 .navbar {
         display: flex;
-        margin: 1rem;
+        margin: 2rem;
         padding: 0rem ;
         position: fixed;
         align-items: center;
         width: 100%;
-        
+        margin-left: 10%;
        
     .navbar-heading {
-            
             font-size: 40px;
             cursor: pointer;
-            color: rgb(33, 10, 247);
+            color: rgb(0, 0, 0);
             width: 15%;
-            font-family: "Sedan", serif;
+            font-family: "Black Ops One", system-ui;
 
             span{
-                color:  rgb(255, 255, 255);;
+                color:  rgb(255, 255, 255);
+                
             }
             
         }
@@ -32,14 +34,20 @@
         display: flex;
         justify-content: space-between;
         height: 60px;
-        width: 45%;
+        width: 55%;
+        font-size: 19px;
+       
         
     .login-btn{
-          width: 15%;
+          width: 18%;
           padding: 0rem;
           background: black;
           border-radius: 1rem;
           margin-right: 20px;
+        }
+        .login-btn:hover{
+            background-color: #e22860;
+            font-weight: 900;
         }
     .link {
             color: white;
