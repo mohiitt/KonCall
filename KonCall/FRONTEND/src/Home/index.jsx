@@ -16,8 +16,8 @@ export default function Home() {
     <div className='content'>
       
         <div className='left'>
-            <h1>welcome to konConnect</h1>
-            <p>ConferConnect is an online meeting platform that allows you to virtually 
+            <h1>welcome to konCall</h1>
+            <p>KonCall is an online meeting platform that allows you to virtually 
             connect with people over the internet for meetings, presentations, 
             or even casual chats.</p>
             <div className="small">
