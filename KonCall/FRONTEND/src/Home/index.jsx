@@ -1,11 +1,20 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import './index.scss'
 import home from "../../src/pic/home.png"
 import vid from "../pic/vid1.gif"
+import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
+  const [input,setInput]=useState("");
+
+  const navigate=useNavigate();
+  const submitHandler=()=>{
+    navigate(`/room/${input}`)
+  }
+
   return (
     <div className='content'>
+      
         <div className='left'>
             <h1>welcome to konConnect</h1>
             <p>ConferConnect is an online meeting platform that allows you to virtually 
@@ -14,7 +23,8 @@ export default function Home() {
             <div className="small">
             <div className="vid"><img src={vid} alt="loading..." /></div>
             <div className="btn">
-                <button>Get Started</button>
+                <button onClick={submitHandler}>Get Started</button>
+                <input value={input} onChange={(e)=>setInput(e.target.value)} type='text' placeholder='Name'></input>
                 <input type='text' placeholder='Code'></input>
             </div>
             </div>

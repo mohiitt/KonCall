@@ -1,12 +1,10 @@
-import React from 'react';
-import './app.scss';
+import React from 'react'
+import './index.scss';
 import 'boxicons'
 
-
-function Navbar() {
-    return (
-        
-         <nav className="navbar" id="navbar">
+export default function Navbar() {
+  return (
+    <nav className="navbar" id="navbar">
             <div className="navbar-heading">
                 
             Kon<span>Call</span></div>
@@ -20,7 +18,5 @@ function Navbar() {
                 <button className="login-btn">SignIn</button>
             </div>
         </nav>
-    );
+  )
 }
-
-export default Navbar;
